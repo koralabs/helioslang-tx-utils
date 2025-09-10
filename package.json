@@ -1,5 +1,5 @@
 {
-    "name": "@helios-lang/tx-utils",
+    "name": "@koralabs/helioslang-tx-utils",
     "version": "0.6.22",
     "description": "Coinselection, Cardano query layer clients, emulator, wallets",
     "main": "src/index.js",
@@ -38,7 +38,7 @@
         "@helios-lang/cbor": "^0.3.1",
         "@helios-lang/codec-utils": "^0.3.4",
         "@helios-lang/crypto": "^0.2.3",
-        "@helios-lang/ledger": "^0.7.15",
+        "@koralabs/helioslang-ledger": "^0.7.15",
         "@helios-lang/type-utils": "^0.3.0",
         "@helios-lang/uplc": "^0.7.17"
     }
