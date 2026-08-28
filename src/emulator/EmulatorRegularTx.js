@@ -1,8 +1,8 @@
 import { equalsBytes } from "@helios-lang/codec-utils"
-import { makeTxInput, makeTxOutputId } from "@helios-lang/ledger"
+import { makeTxInput, makeTxOutputId } from "@koralabs/helioslang-ledger"
 
 /**
- * @import { Address, Tx, TxId, TxInput, TxOutputId } from "@helios-lang/ledger"
+ * @import { Address, Tx, TxId, TxInput, TxOutputId } from "@koralabs/helioslang-ledger"
  * @import { EmulatorRegularTx } from "../index.js"
  */
 

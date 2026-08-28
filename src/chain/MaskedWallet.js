@@ -1,6 +1,6 @@
 /**
  * @import { BytesLike } from "@helios-lang/codec-utils"
- * @import { PubKey, PubKeyHash, Signature, ShelleyAddress, SpendingCredential, Tx, TxId, TxInput } from "@helios-lang/ledger"
+ * @import { PubKey, PubKeyHash, Signature, ShelleyAddress, SpendingCredential, Tx, TxId, TxInput } from "@koralabs/helioslang-ledger"
  * @import { CardanoClient, Cip30CoseSign1, Wallet } from "../index.js"
  */
 

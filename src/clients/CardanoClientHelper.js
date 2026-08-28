@@ -1,8 +1,12 @@
-import { addValues, makeTxInput, makeTxOutput } from "@helios-lang/ledger"
+import {
+    addValues,
+    makeTxInput,
+    makeTxOutput
+} from "@koralabs/helioslang-ledger"
 import { selectSmallestFirst } from "../coinselection/index.js"
 
 /**
- * @import { Address, AssetClass, NetworkParams, SpendingCredential, Tx, TxId, TxInput, TxOutputId, Value } from "@helios-lang/ledger"
+ * @import { Address, AssetClass, NetworkParams, SpendingCredential, Tx, TxId, TxInput, TxOutputId, Value } from "@koralabs/helioslang-ledger"
  * @import { CardanoClient, CardanoClientHelper, CardanoClientHelperOptions, CoinSelection, ReadonlyCardanoClient } from "../index.js"
  */
 

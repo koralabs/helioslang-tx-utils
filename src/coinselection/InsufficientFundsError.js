@@ -1,7 +1,7 @@
-import { addValues } from "@helios-lang/ledger"
+import { addValues } from "@koralabs/helioslang-ledger"
 
 /**
- * @import { TxInput, Value } from "@helios-lang/ledger"
+ * @import { TxInput, Value } from "@koralabs/helioslang-ledger"
  */
 
 export class InsufficientFundsError extends Error {

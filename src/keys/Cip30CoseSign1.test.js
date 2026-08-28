@@ -1,12 +1,12 @@
 import { describe, it } from "node:test"
 import { decodeCip30CoseSign1, makeCip30CoseSign1 } from "./Cip30CoseSign1.js"
-import { decodeShelleyAddress } from "@helios-lang/ledger"
+import { decodeShelleyAddress } from "@koralabs/helioslang-ledger"
 import { bytesToHex } from "@helios-lang/codec-utils"
 import { strictEqual } from "node:assert"
-import { makePubKey } from "@helios-lang/ledger"
+import { makePubKey } from "@koralabs/helioslang-ledger"
 
 /**
- * @import { PubKeyHash, ShelleyAddress } from "@helios-lang/ledger"
+ * @import { PubKeyHash, ShelleyAddress } from "@koralabs/helioslang-ledger"
  */
 
 describe("Cip30CoseSign1", () => {

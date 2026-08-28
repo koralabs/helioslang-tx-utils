@@ -3,12 +3,12 @@ import {
     decodeTxInput,
     parseShelleyAddress,
     parseStakingAddress
-} from "@helios-lang/ledger"
+} from "@koralabs/helioslang-ledger"
 import { JSON } from "@helios-lang/type-utils"
 import { isOfflineWalletJsonSafe } from "./OfflineWalletJsonSafe.js"
 
 /**
- * @import { Address, StakingAddress, TxInput } from "@helios-lang/ledger"
+ * @import { Address, StakingAddress, TxInput } from "@koralabs/helioslang-ledger"
  * @import { JsonSafe } from "@helios-lang/type-utils"
  * @import { OfflineWallet, OfflineWalletJsonSafe } from "../index.js"
  */

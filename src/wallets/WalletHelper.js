@@ -1,11 +1,11 @@
-import { addValues } from "@helios-lang/ledger"
+import { addValues } from "@koralabs/helioslang-ledger"
 import { expectDefined } from "@helios-lang/type-utils"
 import { selectSingle, selectSmallestFirst } from "../coinselection/index.js"
 import { makeOfflineWallet } from "./OfflineWallet.js"
 
 /**
  * @import { BytesLike } from "@helios-lang/codec-utils"
- * @import { Address, PubKey, PubKeyHash, ShelleyAddress, Signature, StakingAddress, Tx, TxId, TxInput, Value } from "@helios-lang/ledger"
+ * @import { Address, PubKey, PubKeyHash, ShelleyAddress, Signature, StakingAddress, Tx, TxId, TxInput, Value } from "@koralabs/helioslang-ledger"
  * @import { Cip30CoseSign1, CoinSelection, OfflineWallet, OfflineWalletJsonSafe, ReadonlyCardanoClient, ReadonlyWallet, Wallet, WalletHelper } from "../index.js"
  */
 

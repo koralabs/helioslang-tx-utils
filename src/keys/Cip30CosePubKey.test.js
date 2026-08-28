@@ -4,7 +4,7 @@ import {
     decodeCip30CosePubKey,
     encodeCip30CosePubKey
 } from "./Cip30CosePubKey.js"
-import { makePubKey } from "@helios-lang/ledger"
+import { makePubKey } from "@koralabs/helioslang-ledger"
 import { bytesToHex } from "@helios-lang/codec-utils"
 
 describe("decodeCip30CosePubKey", () => {

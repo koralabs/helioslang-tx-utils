@@ -1,8 +1,8 @@
-import { makeValue } from "@helios-lang/ledger"
+import { makeValue } from "@koralabs/helioslang-ledger"
 import { InsufficientFundsError } from "./InsufficientFundsError.js"
 
 /**
- * @import { SpendingCredential, TxInput, Value } from "@helios-lang/ledger"
+ * @import { SpendingCredential, TxInput, Value } from "@koralabs/helioslang-ledger"
  */
 
 /**

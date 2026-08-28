@@ -2,7 +2,7 @@ import {
     isValidBech32Address,
     isValidBech32StakingAddress,
     isValidTxInputCbor
-} from "@helios-lang/ledger"
+} from "@koralabs/helioslang-ledger"
 import {
     assert,
     expect,

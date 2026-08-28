@@ -33,7 +33,7 @@ import {
     makeValue,
     toTime,
     makePubKeyHash
-} from "@helios-lang/ledger"
+} from "@koralabs/helioslang-ledger"
 import {
     expectDefined,
     isLeft,
@@ -44,7 +44,7 @@ import { makeUplcDataValue, UplcRuntimeError } from "@helios-lang/uplc"
 
 /**
  * @import { BytesLike, IntLike } from "@helios-lang/codec-utils"
- * @import { Address, AssetClass, AssetClassLike, Assets, DatumPaymentContext, DCert, MintingContext, MintingPolicyHash, MintingPolicyHashLike, NativeScript, NetworkParams, NetworkParamsHelper, PubKeyHash, PubKeyHashLike, ShelleyAddress, ShelleyAddressLike, SpendingContext, StakingAddress, StakingAddressLike, StakingCredential, StakingContext, StakingValidatorHash, TimeLike, TokenValue, Tx, TxBody, TxInfo, TxInput, TxMetadata, TxMetadataAttr, TxOutput, TxOutputDatum, TxOutputDatumCastable, TxRedeemer, ValidatorHash, Value, ValueLike } from "@helios-lang/ledger"
+ * @import { Address, AssetClass, AssetClassLike, Assets, DatumPaymentContext, DCert, MintingContext, MintingPolicyHash, MintingPolicyHashLike, NativeScript, NetworkParams, NetworkParamsHelper, PubKeyHash, PubKeyHashLike, ShelleyAddress, ShelleyAddressLike, SpendingContext, StakingAddress, StakingAddressLike, StakingCredential, StakingContext, StakingValidatorHash, TimeLike, TokenValue, Tx, TxBody, TxInfo, TxInput, TxMetadata, TxMetadataAttr, TxOutput, TxOutputDatum, TxOutputDatumCastable, TxRedeemer, ValidatorHash, Value, ValueLike } from "@koralabs/helioslang-ledger"
  * @import { Either } from "@helios-lang/type-utils"
  * @import { CekResult, Cost, UplcLogger, UplcData, UplcProgramV1, UplcProgramV2 } from "@helios-lang/uplc"
  * @import { BabelFeeAgentOptions, ExBudgetModifier, LazyRedeemerData, TxBuilder, TxBuilderConfig, TxBuilderFinalConfig } from "../index.js"
@@ -622,7 +622,7 @@ class TxBuilderImpl {
                 spendingCredential.kind == "ValidatorHash" &&
                 !this.hasNativeScript(spendingCredential.bytes)
             ) {
-                throw new Error(
+                console.warn(
                     "TxOutput must include datum when sending to validator which isn't a known NativeScript (hint: add the NativeScript to this transaction first)"
                 )
             }
@@ -1678,9 +1678,9 @@ class TxBuilderImpl {
      * @returns {TxOutput[]}
      */
     balanceAssets(changeAddress, maxAssetsPerChangeOutput) {
-        if (changeAddress.spendingCredential.kind == "ValidatorHash") {
-            throw new Error("can't send change to validator")
-        }
+        // if (changeAddress.spendingCredential.kind == "ValidatorHash") {
+        //     throw new Error("can't send change to validator")
+        // }
 
         const inputAssets = this.sumInputAndMintedAssets()
 

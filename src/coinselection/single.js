@@ -1,5 +1,5 @@
 /**
- * @import { SpendingCredential, TxInput, Value } from "@helios-lang/ledger"
+ * @import { SpendingCredential, TxInput, Value } from "@koralabs/helioslang-ledger"
  */
 
 /**

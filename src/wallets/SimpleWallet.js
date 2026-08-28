@@ -1,5 +1,5 @@
 import { mulberry32 } from "@helios-lang/crypto"
-import { makeAddress, makeStakingAddress } from "@helios-lang/ledger"
+import { makeAddress, makeStakingAddress } from "@koralabs/helioslang-ledger"
 import {
     BIP39_DICT_EN,
     restoreRootPrivateKey,
@@ -11,7 +11,7 @@ import { expectDefined } from "@helios-lang/type-utils"
 /**
  * @import { BytesLike } from "@helios-lang/codec-utils"
  * @import { NumberGenerator } from "@helios-lang/crypto"
- * @import { PubKey, PubKeyHash, ShelleyAddress, Signature, StakingAddress, Tx, TxId, TxInput } from "@helios-lang/ledger"
+ * @import { PubKey, PubKeyHash, ShelleyAddress, Signature, StakingAddress, Tx, TxId, TxInput } from "@koralabs/helioslang-ledger"
  * @import { Bip32PrivateKey, CardanoClient, Cip30CoseSign1, RootPrivateKey, SimpleWallet } from "../index.js"
  */
 

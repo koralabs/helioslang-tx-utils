@@ -5,7 +5,7 @@ import {
     makeNetworkParamsHelper,
     makeTxId,
     parseShelleyAddress
-} from "@helios-lang/ledger"
+} from "@koralabs/helioslang-ledger"
 
 const networkName = "preprod"
 const apiKey = "preprodYjh2RkMv6xqgWNKOBhuQ6hoazm0s0iFp"

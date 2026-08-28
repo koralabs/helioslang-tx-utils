@@ -1,9 +1,9 @@
-import { ADA, makeValue } from "@helios-lang/ledger"
+import { ADA, makeValue } from "@koralabs/helioslang-ledger"
 import { selectSmallestFirst } from "./extremumFirst.js"
 import { InsufficientFundsError } from "./InsufficientFundsError.js"
 
 /**
- * @import { AssetClass, SpendingCredential, TxInput, Value } from "@helios-lang/ledger"
+ * @import { AssetClass, SpendingCredential, TxInput, Value } from "@koralabs/helioslang-ledger"
  */
 
 /**

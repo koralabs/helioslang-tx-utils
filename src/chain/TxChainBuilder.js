@@ -1,9 +1,9 @@
-import { makeTxInput } from "@helios-lang/ledger"
+import { makeTxInput } from "@koralabs/helioslang-ledger"
 import { expectDefined } from "@helios-lang/type-utils"
 import { makeTxChain } from "./TxChain.js"
 
 /**
- * @import { Address, NetworkParams, Tx, TxId, TxInput, TxOutputId } from "@helios-lang/ledger"
+ * @import { Address, NetworkParams, Tx, TxId, TxInput, TxOutputId } from "@koralabs/helioslang-ledger"
  * @import { ReadonlyCardanoClient, TxChain, TxChainBuilder } from "../index.js"
  */
 

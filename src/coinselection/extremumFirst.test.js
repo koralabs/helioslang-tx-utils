@@ -8,7 +8,7 @@ import {
     makeTxInput,
     makeTxOutput,
     makeValue
-} from "@helios-lang/ledger"
+} from "@koralabs/helioslang-ledger"
 import { selectSmallestFirst } from "./extremumFirst.js"
 
 describe(selectSmallestFirst.name, () => {

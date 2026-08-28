@@ -1,5 +1,5 @@
 /**
- * @import { Address, AssetClass, NetworkParams, Tx, TxId, TxInput, TxOutputId } from "@helios-lang/ledger"
+ * @import { Address, AssetClass, NetworkParams, Tx, TxId, TxInput, TxOutputId } from "@koralabs/helioslang-ledger"
  * @import { ReadonlyCardanoClient, TxSummary } from "../index.js"
  */
 

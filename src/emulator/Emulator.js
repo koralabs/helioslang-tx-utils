@@ -3,7 +3,7 @@ import {
     makeAssets,
     DEFAULT_NETWORK_PARAMS,
     makeTxOutputId
-} from "@helios-lang/ledger"
+} from "@koralabs/helioslang-ledger"
 import { SECOND } from "../duration/index.js"
 import { makeRootPrivateKey } from "../keys/index.js"
 import { makeSimpleWallet } from "../wallets/index.js"
@@ -17,7 +17,7 @@ import {
 /**
  * @import { IntLike } from "@helios-lang/codec-utils"
  * @import { NumberGenerator } from "@helios-lang/crypto"
- * @import { Address, Assets, NetworkParams, Tx, TxId, TxInput, TxOutputId } from "@helios-lang/ledger"
+ * @import { Address, Assets, NetworkParams, Tx, TxId, TxInput, TxOutputId } from "@koralabs/helioslang-ledger"
  * @import { Emulator, EmulatorTx, EmulatorGenesisTx, SimpleWallet } from "../index.js"
  */
 

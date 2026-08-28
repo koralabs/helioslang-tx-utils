@@ -8,7 +8,7 @@ import {
     makeTxOutput,
     makeTxOutputId,
     makeValue
-} from "@helios-lang/ledger"
+} from "@koralabs/helioslang-ledger"
 import { consolidate } from "./consolidate.js"
 
 const MARKER = makeAssetClass(

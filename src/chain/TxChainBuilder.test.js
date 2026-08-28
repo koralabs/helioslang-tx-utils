@@ -7,7 +7,7 @@ import {
     DEFAULT_NETWORK_PARAMS,
     makeMintingPolicyHash,
     makeTokenValue
-} from "@helios-lang/ledger"
+} from "@koralabs/helioslang-ledger"
 import { makeCardanoClientHelper } from "../clients/index.js"
 import { makeEmulator } from "../emulator/index.js"
 import { makeTxBuilder } from "../txbuilder/index.js"

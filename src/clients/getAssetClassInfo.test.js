@@ -4,7 +4,10 @@ import {
     getAssetClassInfo,
     getCip68AssetClassInfo
 } from "./getAssetClassInfo.js"
-import { makeAssetClass, makeMintingPolicyHash } from "@helios-lang/ledger"
+import {
+    makeAssetClass,
+    makeMintingPolicyHash
+} from "@koralabs/helioslang-ledger"
 
 const networkName = "preprod"
 const apiKey = "preprodYjh2RkMv6xqgWNKOBhuQ6hoazm0s0iFp"

@@ -13,12 +13,12 @@ import {
     parseShelleyAddress,
     parseStakingAddress,
     UtxoNotFoundError
-} from "@helios-lang/ledger"
+} from "@koralabs/helioslang-ledger"
 import { expectDefined } from "@helios-lang/type-utils"
 import { decodeUplcData, decodeUplcProgramV2FromCbor } from "@helios-lang/uplc"
 
 /**
- * @import { Address, AssetClass, NetworkParams, StakingAddress, Tx, TxId, TxInput, TxOutputId } from "@helios-lang/ledger"
+ * @import { Address, AssetClass, NetworkParams, StakingAddress, Tx, TxId, TxInput, TxOutputId } from "@koralabs/helioslang-ledger"
  * @import { KoiosV0Client, NetworkName } from "../index.js"
  */
 

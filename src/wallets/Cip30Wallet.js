@@ -5,12 +5,12 @@ import {
     makeShelleyAddress,
     makeStakingAddress,
     makeTxId
-} from "@helios-lang/ledger"
+} from "@koralabs/helioslang-ledger"
 import { decodeCip30CosePubKey, decodeCip30CoseSign1 } from "../keys/index.js"
 
 /**
  * @import { BytesLike } from "@helios-lang/codec-utils"
- * @import { Address, PubKey, PubKeyHash, ShelleyAddress, Signature, StakingAddress, Tx, TxId, TxInput } from "@helios-lang/ledger"
+ * @import { Address, PubKey, PubKeyHash, ShelleyAddress, Signature, StakingAddress, Tx, TxId, TxInput } from "@koralabs/helioslang-ledger"
  * @import { Cip30CoseSign1, Cip30FullHandle, Cip30Wallet } from "../index.js"
  */
 

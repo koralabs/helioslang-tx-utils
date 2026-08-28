@@ -1,4 +1,7 @@
-export { UtxoAlreadySpentError, UtxoNotFoundError } from "@helios-lang/ledger" // TODO: get rid of this once minor verssion bump
+export {
+    UtxoAlreadySpentError,
+    UtxoNotFoundError
+} from "@koralabs/helioslang-ledger" // TODO: get rid of this once minor verssion bump
 export {
     compareTxSummaries,
     isTxSummaryJsonSafe,
@@ -78,7 +81,7 @@ export {
 
 /**
  * @import { BytesLike, IntLike } from "@helios-lang/codec-utils"
- * @import { Address, AssetClass, Assets, DatumPaymentContext, DCert, MintingContext, MintingPolicyHash, MintingPolicyHashLike, NativeScript, NetworkParams, PubKey, PubKeyHash, PubKeyHashLike, ShelleyAddress, ShelleyAddressLike, Signature, SpendingContext, SpendingCredential, StakingAddress, StakingAddressLike, StakingContext, StakingValidatorHash, TimeLike, TokenValue, Tx, TxBodyEncodingConfig, TxId, TxInfo, TxInput, TxMetadataAttr, TxOutput, TxOutputId, TxOutputDatum, TxOutputDatumCastable, TxWitnessesEncodingConfig, ValidatorHash, Value, ValueLike } from "@helios-lang/ledger"
+ * @import { Address, AssetClass, Assets, DatumPaymentContext, DCert, MintingContext, MintingPolicyHash, MintingPolicyHashLike, NativeScript, NetworkParams, PubKey, PubKeyHash, PubKeyHashLike, ShelleyAddress, ShelleyAddressLike, Signature, SpendingContext, SpendingCredential, StakingAddress, StakingAddressLike, StakingContext, StakingValidatorHash, TimeLike, TokenValue, Tx, TxBodyEncodingConfig, TxId, TxInfo, TxInput, TxMetadataAttr, TxOutput, TxOutputId, TxOutputDatum, TxOutputDatumCastable, TxWitnessesEncodingConfig, ValidatorHash, Value, ValueLike } from "@koralabs/helioslang-ledger"
  * @import { Cost, UplcData, UplcLogger, UplcProgramV1, UplcProgramV2 } from "@helios-lang/uplc"
  */
 

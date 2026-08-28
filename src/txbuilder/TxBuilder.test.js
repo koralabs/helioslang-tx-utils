@@ -1,6 +1,10 @@
 import { describe, it } from "node:test"
 import { strictEqual } from "node:assert"
-import { decodeTx, makeTxInput, makeTxOutput } from "@helios-lang/ledger"
+import {
+    decodeTx,
+    makeTxInput,
+    makeTxOutput
+} from "@koralabs/helioslang-ledger"
 import { makeTxBuilder } from "./TxBuilder.js"
 
 const wallet1 =

@@ -1,5 +1,5 @@
 /**
- * @import { PubKey, Signature } from "@helios-lang/ledger"
+ * @import { PubKey, Signature } from "@koralabs/helioslang-ledger"
  * @import { AssertExtends } from "@helios-lang/type-utils"
  * @import { Bip32PrivateKey, BlockfrostV0Client, CardanoClient, CardanoClientHelper, Cip30Wallet, Emulator, KoiosV0Client, OfflineWallet, RootPrivateKey, ReadonlyCardanoClient, ReadonlyWallet, ReadonlyRefScriptRegistry, RefScriptRegistry, SimpleWallet, TxChainBuilder, Wallet, WalletHelper } from "./index.js"
  */

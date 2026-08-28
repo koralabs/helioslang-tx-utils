@@ -10,11 +10,11 @@ import {
     pbkdf2,
     rand
 } from "@helios-lang/crypto"
-import { makePubKey, makeSignature } from "@helios-lang/ledger"
+import { makePubKey, makeSignature } from "@koralabs/helioslang-ledger"
 
 /**
  * @import { NumberGenerator } from "@helios-lang/crypto"
- * @import { PubKey, Signature } from "@helios-lang/ledger"
+ * @import { PubKey, Signature } from "@koralabs/helioslang-ledger"
  * @import { Bip32PrivateKey } from "../index.js"
  */
 

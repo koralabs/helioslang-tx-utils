@@ -5,10 +5,10 @@ import {
     makeTxOutput,
     makeTxOutputId,
     makeValue
-} from "@helios-lang/ledger"
+} from "@koralabs/helioslang-ledger"
 
 /**
- * @import { Address, Assets, TxId, TxInput, TxOutputId } from "@helios-lang/ledger"
+ * @import { Address, Assets, TxId, TxInput, TxOutputId } from "@koralabs/helioslang-ledger"
  * @import { EmulatorGenesisTx } from "../index.js"
  */
 

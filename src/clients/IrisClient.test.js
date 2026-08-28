@@ -13,7 +13,7 @@ import {
     makeTxOutputId,
     makeValue,
     parseTxOutputId
-} from "@helios-lang/ledger"
+} from "@koralabs/helioslang-ledger"
 import { makeIntData } from "@helios-lang/uplc"
 import { makeTxChainBuilder } from "../chain/index.js"
 import { restoreRootPrivateKey } from "../keys/index.js"

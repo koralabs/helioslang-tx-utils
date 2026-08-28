@@ -6,7 +6,7 @@ import {
     makeTxId,
     makeTxInput,
     makeTxOutputId
-} from "@helios-lang/ledger"
+} from "@koralabs/helioslang-ledger"
 import {
     isArray,
     isFormattedString,
@@ -15,7 +15,7 @@ import {
 } from "@helios-lang/type-utils"
 
 /**
- * @import { Address, SpendingCredential, Tx, TxId, TxInput, TxOutputId } from "@helios-lang/ledger"
+ * @import { Address, SpendingCredential, Tx, TxId, TxInput, TxOutputId } from "@koralabs/helioslang-ledger"
  * @import { TxSummary, TxSummaryJsonSafe } from "../index.js"
  */
 

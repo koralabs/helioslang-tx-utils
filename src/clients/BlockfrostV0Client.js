@@ -11,13 +11,13 @@ import {
     parseShelleyAddress,
     UtxoAlreadySpentError,
     UtxoNotFoundError
-} from "@helios-lang/ledger"
+} from "@koralabs/helioslang-ledger"
 import { expectDefined } from "@helios-lang/type-utils"
 import { decodeUplcData, decodeUplcProgramV2FromCbor } from "@helios-lang/uplc"
 import { SubmissionExpiryError, SubmissionUtxoError } from "./errors.js"
 
 /**
- * @import { Address, AssetClass, NetworkParams, Tx, TxId, TxInfo, TxInput, TxOutput, TxOutputId } from "@helios-lang/ledger"
+ * @import { Address, AssetClass, NetworkParams, Tx, TxId, TxInfo, TxInput, TxOutput, TxOutputId } from "@koralabs/helioslang-ledger"
  * @import { UplcProgramV2 } from "@helios-lang/uplc"
  * @import { BlockfrostV0Client, ExtendedTxInfo, NetworkName, ReadonlyWallet, TxBlockInfo, TxSummary } from "../index.js"
  */

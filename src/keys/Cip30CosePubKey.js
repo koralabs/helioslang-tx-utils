@@ -5,11 +5,11 @@ import {
     encodeInt,
     encodeObjectIKey
 } from "@helios-lang/cbor"
-import { decodePubKey } from "@helios-lang/ledger"
+import { decodePubKey } from "@koralabs/helioslang-ledger"
 
 /**
  * @import { BytesLike } from "@helios-lang/codec-utils"
- * @import { PubKey } from "@helios-lang/ledger"
+ * @import { PubKey } from "@koralabs/helioslang-ledger"
  */
 
 /**

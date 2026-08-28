@@ -1,8 +1,12 @@
 import { bytesToHex } from "@helios-lang/codec-utils"
-import { makeTxInput, makeTxOutput, makeTxOutputId } from "@helios-lang/ledger"
+import {
+    makeTxInput,
+    makeTxOutput,
+    makeTxOutputId
+} from "@koralabs/helioslang-ledger"
 
 /**
- * @import { TxInput, TxOutputId } from "@helios-lang/ledger"
+ * @import { TxInput, TxOutputId } from "@koralabs/helioslang-ledger"
  * @import { UplcProgramV2 } from "@helios-lang/uplc"
  * @import { ReadonlyCardanoClient, ReadonlyRefScriptRegistry } from "../index.js"
  */

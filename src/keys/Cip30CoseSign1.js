@@ -15,13 +15,13 @@ import {
     isInt
 } from "@helios-lang/cbor"
 import { toBytes } from "@helios-lang/codec-utils"
-import { makeSignature } from "@helios-lang/ledger"
-import { decodeShelleyAddress } from "@helios-lang/ledger"
+import { makeSignature } from "@koralabs/helioslang-ledger"
+import { decodeShelleyAddress } from "@koralabs/helioslang-ledger"
 
 /**
  * @import { Encodeable } from "@helios-lang/cbor"
  * @import { BytesLike } from "@helios-lang/codec-utils"
- * @import { PubKey, PubKeyHash, ShelleyAddress } from "@helios-lang/ledger"
+ * @import { PubKey, PubKeyHash, ShelleyAddress } from "@koralabs/helioslang-ledger"
  * @import { Bip32PrivateKey, Cip30CoseSign1 } from "../index.js"
  */
 

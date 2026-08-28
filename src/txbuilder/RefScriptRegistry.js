@@ -5,14 +5,14 @@ import {
     makeTxOutput,
     makeTxOutputId,
     makeValue
-} from "@helios-lang/ledger"
+} from "@koralabs/helioslang-ledger"
 import { expectDefined } from "@helios-lang/type-utils"
 import { makeIntData } from "@helios-lang/uplc"
 import { makeWalletHelper } from "../wallets/index.js"
 import { makeTxBuilder } from "./TxBuilder.js"
 
 /**
- * @import { ShelleyAddress, TxInput, TxOutputId } from "@helios-lang/ledger"
+ * @import { ShelleyAddress, TxInput, TxOutputId } from "@koralabs/helioslang-ledger"
  * @import { UplcProgramV2 } from "@helios-lang/uplc"
  * @import { CardanoClient, RefScriptRegistry, Wallet } from "../index.js"
  */

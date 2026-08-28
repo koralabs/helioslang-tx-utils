@@ -8,7 +8,7 @@ import {
     makeTxInput,
     makeTxOutput,
     makeValue
-} from "@helios-lang/ledger"
+} from "@koralabs/helioslang-ledger"
 import { makeTxSummary, isTxSummaryJsonSafe } from "./TxSummary.js"
 
 describe(isTxSummaryJsonSafe.name, () => {

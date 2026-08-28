@@ -11,7 +11,7 @@ import {
 
 /**
  * @import { NumberGenerator } from "@helios-lang/crypto"
- * @import { PubKey, Signature } from "@helios-lang/ledger"
+ * @import { PubKey, Signature } from "@koralabs/helioslang-ledger"
  * @import { Bip32PrivateKey, RootPrivateKey } from "../index.js"
  */
 

@@ -1,6 +1,6 @@
 {
     "name": "@koralabs/helioslang-tx-utils",
-    "version": "0.6.22",
+    "version": "0.6.22-2",
     "description": "Coinselection, Cardano query layer clients, emulator, wallets",
     "main": "src/index.js",
     "types": "types/index.d.ts",

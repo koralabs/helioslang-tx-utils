@@ -1,7 +1,7 @@
-import { makeTxInput, makeTxOutputId } from "@helios-lang/ledger"
+import { makeTxInput, makeTxOutputId } from "@koralabs/helioslang-ledger"
 
 /**
- * @import { Tx, TxInput, TxOutput, TxOutputId } from "@helios-lang/ledger"
+ * @import { Tx, TxInput, TxOutput, TxOutputId } from "@koralabs/helioslang-ledger"
  * @import { TxChain } from "../index.js"
  */
 

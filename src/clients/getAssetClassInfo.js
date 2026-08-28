@@ -4,7 +4,7 @@ import {
     encodeUtf8,
     hexToBytes
 } from "@helios-lang/codec-utils"
-import { makeAssetClass } from "@helios-lang/ledger"
+import { makeAssetClass } from "@koralabs/helioslang-ledger"
 import { expectDefined } from "@helios-lang/type-utils"
 import {
     expectByteArrayData,
@@ -14,7 +14,7 @@ import {
 } from "@helios-lang/uplc"
 
 /**
- * @import { AssetClass } from "@helios-lang/ledger"
+ * @import { AssetClass } from "@koralabs/helioslang-ledger"
  * @import { AssetClassInfo, BlockfrostV0Client, NetworkName } from "../index.js"
  */
 

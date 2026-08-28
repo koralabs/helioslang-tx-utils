@@ -13,7 +13,7 @@ import {
     parseShelleyAddress,
     parseTxOutputId,
     UtxoNotFoundError
-} from "@helios-lang/ledger"
+} from "@koralabs/helioslang-ledger"
 import {
     check,
     expectArray,
@@ -38,7 +38,7 @@ import {
  *   TxOutputId,
  *   TxOutputDatum,
  *   Value
- * } from "@helios-lang/ledger"
+ * } from "@koralabs/helioslang-ledger"
  * @import { UplcProgramV1, UplcProgramV2 } from "@helios-lang/uplc"
  * @import {
  *   HydraClient,

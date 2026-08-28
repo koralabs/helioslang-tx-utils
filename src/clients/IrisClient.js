@@ -8,7 +8,7 @@ import {
     makeTxId,
     UtxoAlreadySpentError,
     UtxoNotFoundError
-} from "@helios-lang/ledger"
+} from "@koralabs/helioslang-ledger"
 
 /**
  * @import {
@@ -20,7 +20,7 @@ import {
  *   TxInput,
  *   TxOutputId,
  *   Value
- * } from "@helios-lang/ledger"
+ * } from "@koralabs/helioslang-ledger"
  * @import { IrisClient } from "../index.js"
  */
 

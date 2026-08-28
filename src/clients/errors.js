@@ -1,5 +1,5 @@
 /**
- * @import { TxOutputId } from "@helios-lang/ledger"
+ * @import { TxOutputId } from "@koralabs/helioslang-ledger"
  */
 
 /**
