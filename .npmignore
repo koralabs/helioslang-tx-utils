@@ -10,3 +10,4 @@ log.*
 typedoc.json
 docs
 test
+src/clients/fixtures
