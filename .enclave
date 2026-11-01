@@ -1,0 +1,51 @@
+# Exact repository-root-relative paths. No wildcards, no directory prefixes.
+# A change to any of these needs operator approval at merge time (see CANONICAL_CONTRACT.md).
+# Why: keys and signing, transaction building and fee balance, coin selection, and the chain clients that read UTxOs and submit.
+.enclave
+CANONICAL_CONTRACT.md
+package.json
+# Invariant 1: keys and signing
+src/keys/Bip32PrivateKey.js
+src/keys/bip39.js
+src/keys/Cip30CosePubKey.js
+src/keys/Cip30CoseSign1.js
+src/keys/RootPrivateKey.js
+src/wallets/Cip30Wallet.js
+src/wallets/OfflineWallet.js
+src/wallets/OfflineWalletJsonSafe.js
+src/wallets/SimpleWallet.js
+src/wallets/WalletHelper.js
+# Invariant 2: transaction building and chaining
+src/txbuilder/TxBuilder.js
+src/txbuilder/RefScriptRegistry.js
+src/txbuilder/CachedRefScriptRegistry.js
+src/chain/TxChain.js
+src/chain/TxChainBuilder.js
+src/chain/MaskedWallet.js
+src/chain/TxSummary.js
+# Invariant 3: coin selection
+src/coinselection/consolidate.js
+src/coinselection/extremumFirst.js
+src/coinselection/InsufficientFundsError.js
+src/coinselection/single.js
+# Invariant 4 and 5: chain clients (UTxO reads, submit, rate limits)
+src/clients/BlockfrostV0Client.js
+src/clients/CardanoClientHelper.js
+src/clients/errors.js
+src/clients/getAssetClassInfo.js
+src/clients/HydraClient.js
+src/clients/IrisClient.js
+src/clients/KoiosV0Client.js
+src/clients/ReadonlyCardanoMultiClient.js
+# Tests that pin these behaviours
+src/chain/TxChainBuilder.test.js
+src/chain/TxSummary.test.js
+src/clients/BlockfrostV0Client.test.js
+src/clients/getAssetClassInfo.test.js
+src/clients/IrisClient.test.js
+src/coinselection/consolidate.test.js
+src/coinselection/extremumFirst.test.js
+src/keys/Bip32PrivateKey.test.js
+src/keys/Cip30CosePubKey.test.js
+src/keys/Cip30CoseSign1.test.js
+src/txbuilder/TxBuilder.test.js
